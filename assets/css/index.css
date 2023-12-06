@@ -1,0 +1,126 @@
+.img-text-section {
+    display: flex;
+}
+
+@media only screen and (min-width: 1300px) {
+
+    .img-text-section {
+        margin: 3rem 12rem;
+        align-items: stretch;
+    }
+
+    .main-ZOOM {
+        max-height: 500px;
+    }
+
+    .text-side {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 3rem;
+        position: relative;
+    }
+
+    .text-side h1 {
+        font-size: 5em;
+        color: #292929;
+        font-weight: 600;
+        position: relative;
+    }
+
+    .text-side h3 {
+        font-size: 3em;
+        color: #292929;
+        font-weight: 700;
+        width: 90%;
+        position: relative;
+    }
+
+    .text-side h2 {
+        color: #0B896B;
+        font-weight: 700;
+        width: 90%;
+        position: relative;
+    }
+
+    .text-side p,
+    .CustomTrip-text p {
+        font-size: 1.2em;
+        color: #7A7A7A;
+        width: 60%;
+        text-align: justify;
+        font-weight: 500;
+        position: relative;
+    }
+
+    .text-side a {
+        font-size: 1.2em;
+        color: #fff;
+        text-align: justify;
+        font-weight: 600;
+        position: relative;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .main-ZOOM {
+        max-height: 320px;
+    }
+
+    .img-text-section {
+        flex-direction: column-reverse;
+        margin: 2rem 1rem 0rem 1rem !important;
+        align-items: center;
+        gap: 1rem;
+
+    }
+
+    .text-side h3 {
+        font-size: 2.3em;
+        color: #292929;
+        font-weight: 700;
+        width: 90%;
+        position: relative;
+    }
+
+    .text-side h2 {
+        color: #0B896B;
+        font-weight: 700;
+        width: 90%;
+        position: relative;
+    }
+
+
+    .text-side {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 2rem;
+        position: relative;
+    }
+
+    .text-side h1 {
+        font-size: 2.5em;
+        color: #292929;
+        font-weight: 600;
+        position: relative;
+    }
+
+    .text-side p {
+        font-size: 1.2em;
+        color: #7A7A7A;
+        width: 90%;
+        line-height: 1.3rem;
+        text-align: justify;
+        font-weight: 500;
+        position: relative;
+    }
+
+    .text-side a {
+        font-size: 1.2em;
+        color: #fff;
+        text-align: justify;
+        font-weight: 600;
+        position: relative;
+    }
+}
