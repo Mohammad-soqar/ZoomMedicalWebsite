@@ -140,6 +140,17 @@ table {
     border-collapse: collapse;
     border-spacing: 0;
 }
+/*----------------------reset code-----------------*/
+
+:root {
+    --shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.25);
+    --Green-Color:#0B896B;
+    --btn-Radius:22px;
+    --btn-Padding:.7rem 2rem;
+}
+* {
+    box-sizing: border-box; /* Apply box-sizing to all elements */
+  }
 
 .Transperent-brand-btn,
 .brand-background-btn {
@@ -157,9 +168,9 @@ table {
 }
 
 .brand-background-btn {
-    background-color: #0B896B;
-    border-radius: 22px;
-    padding: .7rem 2rem;
+    background-color: var(--Green-Color);
+    border-radius: var(--btn-Radius);
+    padding: var(--btn-Padding);
 }
 
 .anchor-with-img {
