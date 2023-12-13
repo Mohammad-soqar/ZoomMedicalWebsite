@@ -1,0 +1,52 @@
+
+
+.operation-card{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    gap: 1rem;
+    border: solid 1px var(--Dark-Color);
+    transition: .5s;
+    padding: 1rem;
+}
+
+.operation-card:hover{
+    box-shadow: var(--shadow);
+    transition: .5s;
+
+}
+
+.operation-card__image-container {
+    width: 100%; /* Adjust this to scale the image */
+}
+
+.operation-card__image-container img {
+    width: 100%; /* Makes the image take full width of the container */
+    border-radius: var(--btn-Radius);
+    height: auto; /* Maintains the aspect ratio */
+}
+
+.operation-card__text-CTA{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.operation-card__text-CTA h3{
+    
+    font-weight: 800;
+    font-size: 1.4em;
+}
+
+.operation-card__CTA{
+    display: flex;
+    justify-content: center;
+}
+
+.operation-card__CTA button{
+    color: #fff;
+    padding: var(--btn-Padding);
+    border-radius: var(--btn-Radius);
+    background-color: var(--Green-Color);
+}

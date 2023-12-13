@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Inter';
+    src: url('/assets/font/Inter-Medium.ttf');
+}
+
 html,
 body,
 div,
@@ -117,6 +122,9 @@ button {
 body {
     line-height: 1;
 }
+*{
+  font-family: Inter;
+}
 
 ol,
 ul {
@@ -145,6 +153,7 @@ table {
 :root {
     --shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.25);
     --Green-Color:#0B896B;
+    --Dark-Color:#435358;
     --btn-Radius:22px;
     --btn-Padding:.7rem 2rem;
 }
