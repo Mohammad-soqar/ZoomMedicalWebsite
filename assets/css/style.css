@@ -147,6 +147,7 @@ table {
     --Green-Color:#0B896B;
     --btn-Radius:22px;
     --btn-Padding:.7rem 2rem;
+    --black-text:#292929;
 }
 * {
     box-sizing: border-box; /* Apply box-sizing to all elements */
