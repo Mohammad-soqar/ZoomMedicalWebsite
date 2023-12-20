@@ -1,0 +1,192 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.blogs-banner {
+    margin: 1rem 0rem;
+    position: relative;
+    height: 80vh;
+    background-image: url('/assets/img/BlogThumb.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.blogs-banner::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.blogs-banner__content {
+    z-index: 2;
+    position: absolute;
+    text-align: start;
+    top: 50%;
+    left: 20%;
+    transform: translate(-20%, -50%);
+}
+
+.blogs-banner__content h1 {
+    font-size: 5em;
+    /* Adjust the size as needed */
+    margin: 0 0 0.5em 0;
+}
+
+.blogs-banner__subheading {
+    font-size: 1.5rem;
+    /* Adjust the size as needed */
+    margin-bottom: 1em;
+    width: 40%;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    /* Adjust the color as needed */
+    color: var(--Green-Color);
+    /* Adjust text color to match your design */
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: var(--btn-Radius);
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: var(--Green-Color);
+    box-shadow: var(--shadow);
+    color: #fff;
+}
+
+.blog-section__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog-section__title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.blog-section__title h2 {
+    font-size: 2em;
+    color: var(--Green-Color);
+}
+
+.blog-section__title span {
+    font-size: 1em;
+    color: var(--Dark-color);
+}
+
+.blog-section__search-input {
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.blog-section__search-input input {
+    border-radius: var(--btn-Radius);
+    border: solid 3px var(--Green-Color);
+    padding: var(--btn-Padding);
+
+}
+
+.blogs-section{
+    padding-top: 2rem;
+}
+.blogBox {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr)); /* Creates a responsive grid */
+    gap: 2rem; /* Spacing between cards */
+    padding: 0;
+    list-style-type: none;
+    margin: 1rem 6rem; /* Adjust margins as needed */
+}
+
+.blog-item {
+    transition: transform 0.3s ease;
+    border: var(--Green-Color) 2px solid;
+    border-radius: 22px 22px 27px 27px;
+}
+
+.blog-item:hover {
+    transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+.blog-card {
+    display: block;
+    background-color: #fff;
+    border-radius: var(--btn-Radius);
+    box-shadow: var(--shadow);
+
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit; /* Keeps text color consistent */
+}
+
+.blog-right {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.blog-right img {
+    width: 100%; /* Ensures the width is always 100% of the container */
+    height: 200px; /* Fixed height for the square shape */
+    object-fit: cover; /* Crops and centers the image within the container */
+    object-position: center; /* Ensures the image is centered in the container */
+}
+.blog-right-text {
+    padding: 1rem;
+    background-color: var(--Green-Color);  /* Change as needed */
+}
+
+.blog-right-text p {
+    color: var(--Dark-color);
+    font-size: 1em;
+    margin: 0.5rem 0;
+}
+
+.blog-right-text h3 {
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+}
+
+/* Color for 'READ MORE' text */
+.blog-right-text p:last-of-type {
+    color: var(--Green-Color);
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 767px) {
+    .blogBox {
+        grid-template-columns: 1fr; /* Single column layout on mobile */
+        margin: 1rem; /* Adjusted margin for mobile */
+    }
+    .blogs-banner__subheading {
+        font-size: 1.5rem;
+        /* Adjust the size as needed */
+        margin-bottom: 1em;
+        width: 100%;
+    }
+
+    .blog-section__header {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .blog-section__search-input {
+        justify-content: center;
+    }
+}
