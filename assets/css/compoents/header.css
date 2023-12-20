@@ -143,3 +143,41 @@
     width: 25px;
     margin: 3px 0;
 }
+
+/* Language Selector Styles */
+.language-selector {
+    display: flex;
+    gap: 1rem;
+    position: relative;
+    font-size: .9em;
+}
+
+#language-select {
+    cursor: pointer;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    background-color: #ffffff;
+    color: #0B896B;
+    font-weight: 600;
+    font-size: 1em;
+    outline: none;
+}
+
+/* Hide the language selector in mobile view initially */
+@media only screen and (max-width: 1300px) {
+    .language-selector {
+        display: none;
+    }
+
+    .language-selector.active {
+        display: block;
+    }
+}
+
+/* Adjust the position and styling of the language selector for desktop view */
+@media only screen and (min-width: 1300px) {
+    .language-selector {
+        margin-left: auto; /* Aligns the selector to the right */
+    }
+}

@@ -4,10 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Zoom Medical</title>
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <link rel="stylesheet" href="assets/css/compoents/footer.css" />
-    <link rel="stylesheet" href="assets/css/blogs.css" />
-    <link rel="stylesheet" href="assets/css/compoents/header.css" />
+    <link rel="stylesheet" href="/assets/css/style.css" />
+    <link rel="stylesheet" href="/assets/css/compoents/footer.css" />
+    <link rel="stylesheet" href="/assets/css/blogs.css" />
+    <link rel="stylesheet" href="/assets/css/compoents/header.css" />
   </head>
 
   <body>
@@ -26,7 +26,7 @@
         <a href="aboutus.html">
           <li class="nav-links">About Us</li>
         </a>
-        <a href="services.html">
+        <a href="operations.html">
           <li class="nav-links">Operations</li>
         </a>
         <a href="beforeafter.html">
@@ -35,9 +35,19 @@
         <a href="testimonials.html">
           <li class="nav-links">Testimonials</li>
         </a>
-        <a href="blogs.html">
+            <a href="blogs.html">
           <li class="nav-links">Blogs</li>
         </a>
+<li class="nav-links language-selector">
+          <div class="language-selector">
+            <a href="#" data-lang="en">EN</a>
+            <a href="#" data-lang="ar">AR</a>
+            <a href="#" data-lang="fr">FR</a>
+            <!-- Add more languages as needed -->
+        </div>
+      </li>
+
+        
       </ul>
       <!-- Include the buttons here initially hidden -->
     </nav>
@@ -50,8 +60,8 @@
       <div class="blogs-banner__content">
         <h1>Blogs</h1>
         <p class="blogs-banner__subheading">
-          Led by top specialists, offering state-of-the-art technology and
-          personalized care.
+          Discover insights, stories, and expert opinions across a wide range of
+          topics.
         </p>
         <a href="#blogs" class="cta-button">Go to Blogs</a>
       </div>
@@ -62,21 +72,20 @@
         <div class="blog-section__title">
           <h2>Blogs:</h2>
         </div>
-        
+
         <div class="blog-section__search-input">
-            <img src="assets/img/icons/search.png" height="30px" alt="" />
-            <!-- Updated search input with an id for jQuery reference -->
-            <input type="text" id="search-input" placeholder=" Search..." />
+          <img src="/assets/img/icons/search.png" height="30px" alt="" />
+          <!-- Updated search input with an id for jQuery reference -->
+          <input type="text" id="search-input" placeholder=" Search..." />
         </div>
       </div>
       <ul id="blog-list" class="blogBox">
-       
         <li class="blog-item" data-category="Dental">
           <a class="blog-card" href="#">
             <div class="blog-right">
               <img
                 alt="@Blog.Title"
-                src="assets/img/bodyimg.png"
+                src="/assets/img/bodyimg.png"
                 height="100"
                 draggable="false"
               />
@@ -93,7 +102,7 @@
             <div class="blog-right">
               <img
                 alt="@Blog.Title"
-                src="assets/img/hairTransThumb.png"
+                src="/assets/img/hairTransThumb.png"
                 height="100"
                 draggable="false"
               />
@@ -110,13 +119,15 @@
             <div class="blog-right">
               <img
                 alt="@Blog.Title"
-                src="assets/img/bodyimg.png"
+                src="/assets/img/bodyimg.png"
                 height="100"
                 draggable="false"
               />
               <div class="blog-right-text">
                 <p>18/12/2023</p>
-                <h3 class="show-read-more">How to make your body look younger?</h3>
+                <h3 class="show-read-more">
+                  How to make your body look younger?
+                </h3>
                 <p style="color: #ffffff">READ MORE</p>
               </div>
             </div>
@@ -127,7 +138,7 @@
             <div class="blog-right">
               <img
                 alt="@Blog.Title"
-                src="assets/img/bodyimg.png"
+                src="/assets/img/bodyimg.png"
                 height="100"
                 draggable="false"
               />
@@ -148,17 +159,21 @@
     <!--     footer section -->
 
     <section class="footer-section">
-        <footer>
-            <section class="top">
-                <div class="fotter-logo-container">
-
-                    <img class="footer-logo" src="/Images/icons/Logo.png" height="50PX">
-                    <p>With Zoom Tourism unlock the adventures with your personalized travel partner. Discover Turkey
-                        with
-                        Zoom, where every journey is an unforgettable story. We've got all your travel needs covered.
-                        Ready
-                        to embark on your next adventure?</p>
-                </div>
+      <footer>
+        <section class="top">
+          <div class="fotter-logo-container">
+            <img
+              class="footer-logo"
+              src="/Images/icons/Logo.png"
+              height="50PX"
+            />
+            <p>
+              With Zoom Tourism unlock the adventures with your personalized
+              travel partner. Discover Turkey with Zoom, where every journey is
+              an unforgettable story. We've got all your travel needs covered.
+              Ready to embark on your next adventure?
+            </p>
+          </div>
 
           <ul>
             <li>
@@ -229,7 +244,8 @@
     <!--     footer section -->
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="assets/js/app.js"></script>
-    <script src="assets/js/blogFilter.js"></script>
+    <script src="/assets/js/app.js"></script>
+    <script src="/assets/js/blogFilter.js"></script>
+    <script src="/assets/js/translation.js"></script>
   </body>
 </html>
