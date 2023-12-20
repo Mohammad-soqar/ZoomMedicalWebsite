@@ -34,7 +34,7 @@ footer section {
 
 section .top img {
     display: block;
-    height: 30px;
+    height: 70px;
     margin: 0 0 30px;
 }
 
@@ -139,14 +139,20 @@ section .bottom {
     }
 
     .top p {
-        font-size: 25px;
-    }
+        font-size: 20px;
+        text-align: center;
+        }
 
     .top a {
         font-size: 25px;
     }
-
+    .fotter-logo-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }
+
 
 
 /* footer section  */
