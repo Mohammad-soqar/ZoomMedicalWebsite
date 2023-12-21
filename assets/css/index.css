@@ -108,15 +108,15 @@
 }
 
 .mission-container-leftside-title h3 {
-    font-size: 4em;
+    font-size: 3em;
     color: var(--black-text);
-    font-weight: 400;
+    font-weight: 800;
 }
 
 .mission-container-leftside-title span {
     color: var(--Green-Color);
     font-weight: 700;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 .mission-container-leftside-grid-content {
@@ -146,7 +146,7 @@
 
 .blog-section-header h4 {
     font-weight: 700;
-    font-size: 4em;
+    font-size: 3em;
 }
 
 
