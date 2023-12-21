@@ -7,6 +7,7 @@
     background-image: url(/assets/img/Rectangle-green-background.png);
     background-repeat: no-repeat;
     background-position: center;
+    background-size: cover;
 
 }
 
@@ -24,7 +25,7 @@
 }
 
 .main-ZOOM {
-    max-height: 500px;
+    width: 90%;
 }
 
 .text-side {
@@ -77,6 +78,10 @@
     font-weight: 600;
     position: relative;
 }
+.img-text-section-img-side{
+    display: flex;
+    justify-content: flex-end;   
+}
 
 .mission-container {
     display: flex;
@@ -89,6 +94,7 @@
     width: 600px;
 }
 
+
 .mission-container-leftside {
     display: flex;
     flex-direction: column;
@@ -99,7 +105,6 @@
 
 .mission-container-leftside-title {
     display: grid;
-    text-align: center;
 }
 
 .mission-container-leftside-title h3 {
@@ -120,34 +125,18 @@
     gap: 1rem;
 }
 
-.mission-container-leftside-grid-content-card {
-    display: grid;
-    gap: -1px;
-    background-color: rgb(255, 255, 255);
-    border: 1px solid var(--Green-Color);
-    border-radius: var(--btn-Radius);
-    padding: 1rem 1rem 8rem 1rem;
-    /* margin: 1rem; */
-    height: 100px;
-    width: 100%;
-    text-align: center;
-    box-shadow: var(--shadow);
-    justify-content: center;
-}
-.mission-container-leftside-grid-content-card img{
-    display: none;
-}
+
 
 .mission-container-leftside-grid-content-card h3 {
     color: var(--Green-Color);
     font-weight: 700;
     font-size: 1.5em;
 }
-.blog-container {
-    margin: 5rem 0 0 0;
-}
 
-.blog-container div{
+
+
+
+.blog-section-header {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -155,19 +144,92 @@
     text-align: center;
 }
 
-.blog-container h2{
+.blog-section-header h4 {
     font-weight: 700;
     font-size: 4em;
 }
 
 
-    .blog-container h4{
+.blog-section-header h2 {
     color: var(--Green-Color);
     font-weight: 700;
     font-size: 1.5em;
 }
 
+section.reviews-container {
+    display: flex;
+    margin: 5rem 0;
+    align-items: center;
+}
 
+.reviews-container-img {
+    width: 50%;
+}
+
+
+.reviews-container-img img {
+    width: 80%;
+}
+
+.reviews-container-contant {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 1rem;
+    margin: 2rem 0 0 0;
+    width: 45%;
+    line-height: 1.5;
+}
+
+.reviews-container-contant h2 {
+    font-size: 4em;
+    font-weight: 300;
+    color: var(--black-text);
+}
+
+.reviews-container-contant p {
+    font-size: 1.2em;
+    font-weight: 200;
+    color: var(--black-text);
+}
+
+.reviews-container-contant-review-user {
+    gap: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews-container-contant-review-user-username img {
+    width: 15%;
+}
+
+.reviews-container-contant-review {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid var(--Green-Color);
+    border-radius: 20px;
+    padding: 1rem;
+    gap: 2rem;
+}
+
+.reviews-container-contant-review-user-username {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.reviews-container-contant-review-user-username-date p {
+    /* margin: 0.5rem 0 0 0; */
+    font-size: 1em;
+}
+
+.reviews-container-contant-review-user-username-date h3 {
+    font-size: 1.5em;
+}
+
+.reviews-container-contant-review-stars {
+    width: 40%;
+}
 
 @media only screen and (max-width: 1174px) {
     .slideshow-container-text h3 {
@@ -175,7 +237,8 @@
     }
 
     .slideshow-container-text p {
-        font-size: .8em !important;
+        font-size: 1em !important;
+        text-align: center;
     }
 
     .mission-container-right-side img {
@@ -191,6 +254,7 @@
     .mission-container {
         margin: 5rem 2rem 5rem 2rem;
     }
+
 }
 
 /* CSS for tablet screens */
@@ -208,6 +272,22 @@
 
     .slideshow-container {
         padding: 1rem !important;
+    }
+
+    .reviews-container-contant h2 {
+        font-size: 3em !important;
+    }
+
+    .reviews-container-img {
+        display: none;
+    }
+
+    .reviews-container-contant {
+        width: 100%;
+        margin: 0 6rem;
+    }
+    .text-side h1 {
+        font-size: 3em!important;
     }
 }
 
@@ -232,12 +312,11 @@
     }
 
     .main-ZOOM {
-        height: 300px;
-        width: 170px;
+        width: 90%;
     }
 
     .text-side h1 {
-        font-size: 2em;
+        font-size: 1.3em;
     }
 
     .text-side h3 {
@@ -245,7 +324,8 @@
     }
 
     .text-side a {
-        font-size: .8em;
+        font-size: 1em;
+        text-align: left;
     }
 
     .best-service-text-side h1 {
@@ -275,6 +355,10 @@
         padding: 1rem !important;
     }
 
+    .blog-section-header h4 {
+        font-size: 2em !important;
+    }
+
     .mission-container-leftside-grid-content-card h3 {
         font-size: 1.2em;
     }
@@ -282,7 +366,33 @@
     .mission-container-leftside-grid-content-card div {
         border-radius: 9px;
     }
-    .mission-container-leftside-grid-content-card p{
+
+    .reviews-container-img {
+        display: none;
+    }
+
+    .reviews-container-contant {
+        width: 100%;
+        margin: 0 4rem;
+    }
+
+    .reviews-container-contant h2 {
+        font-size: 2em !important;
+        text-align: center;
+
+    }
+
+    .reviews-container-contant p {
+        font-size: 1em;
+        text-align: center;
+    }
+
+    .reviews-container-contant-review-stars {
+        width: 70%;
+    }
+
+    .reviews-container-contant-review {
+        align-items: center;
     }
 }
 
@@ -292,7 +402,7 @@
     }
 
     .slideshow-container-text a {
-        font-size: .7rem !important;
+    font-size: 1rem !important;
     }
 
     .mission-container-leftside-grid-content {
@@ -326,6 +436,25 @@
         text-align: center;
         box-shadow: var(--shadow);
         justify-content: flex-start; */
+    }
+
+    .mission-container-leftside-grid-content-card {
+        display: grid;
+        gap: -1px;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid var(--Green-Color);
+        border-radius: var(--btn-Radius);
+        padding: 1rem 1rem 8rem 1rem;
+        /* margin: 1rem; */
+        height: 100px;
+        width: 100%;
+        text-align: center;
+        box-shadow: var(--shadow);
+        justify-content: center;
+    }
+
+    .mission-container-leftside-grid-content-card img {
+        display: none;
     }
 }
 
@@ -387,7 +516,7 @@
     display: flex;
     flex-direction: column;
     line-height: 1.5;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
 }
 
@@ -440,10 +569,7 @@
 
 
 
-
-html {
-    scroll-behavior: smooth;
-}
+/* 
 
 .blog-section {
     margin: 1rem 6rem 0rem 6rem;
@@ -533,4 +659,4 @@ html {
         gap: 1.5rem;
         margin: 0rem 2rem;
     }
-}
+} */
