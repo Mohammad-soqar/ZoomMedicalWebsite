@@ -168,7 +168,7 @@ section.reviews-container {
 
 
 .reviews-container-img img {
-    width: 80%;
+    width: 70%;
 }
 
 .reviews-container-contant {
@@ -182,15 +182,18 @@ section.reviews-container {
 }
 
 .reviews-container-contant h2 {
-    font-size: 4em;
-    font-weight: 300;
+    font-size: 3em;
+    font-weight: 700;
     color: var(--black-text);
+    text-align: justify;
 }
 
 .reviews-container-contant p {
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 200;
     color: var(--black-text);
+    line-height: 1.7;
+    text-align: justify;
 }
 
 .reviews-container-contant-review-user {
@@ -220,11 +223,11 @@ section.reviews-container {
 
 .reviews-container-contant-review-user-username-date p {
     /* margin: 0.5rem 0 0 0; */
-    font-size: 1em;
+    font-size: .9em;
 }
 
 .reviews-container-contant-review-user-username-date h3 {
-    font-size: 1.5em;
+    font-size: 1.2em;
 }
 
 .reviews-container-contant-review-stars {
