@@ -1,0 +1,100 @@
+html{
+    scroll-behavior: smooth;
+}
+
+/* Add this to your existing styles */
+.service-links {
+    text-align: center;
+    margin: 3rem 0;
+    padding-top: 1rem;
+    font-size: 1.5em;
+}
+
+.service-link {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #0B896B;
+    font-weight: bold;
+}
+
+.image-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.image-gallery img {
+    width: 30%; /* For desktop */
+    margin-bottom: 15px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .image-gallery img {
+        width: 100%; /* Full width on mobile */
+    }
+}
+
+
+
+.before-and-after-banner {
+    margin: 1rem 0rem;
+    position: relative;
+    height: 80vh;
+    background-image: url('/assets/img/beforeandafterThumb.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+.before-and-after-banner::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.before-and-after-banner__content {
+    position: relative;
+    z-index: 2;
+    text-align: start;
+    top: 50%;
+    left: 15%;
+    width: 33rem;
+    right: 0%;
+    transform: translate(-20%, -50%);
+}
+.before-and-after-banner__subheading {
+    font-size: 1.5rem;
+    /* Adjust the size as needed */
+    margin-bottom: 1em;
+    width: 80%;
+}
+
+.before-and-after-banner__content h1 {
+    font-size: 5em;
+    /* Adjust the size as needed */
+    margin: 0 0 0.5em 0;
+}
+
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    /* Adjust the color as needed */
+    color: var(--Green-Color);
+    /* Adjust text color to match your design */
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: var(--btn-Radius);
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: var(--Green-Color);
+    box-shadow: var(--shadow);
+    color: #fff;
+}

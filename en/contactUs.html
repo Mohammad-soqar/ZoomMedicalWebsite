@@ -1,22 +1,20 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Zoom Medical</title>
+    <title>Contact Us</title>
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/compoents/footer.css">
-    <link rel="stylesheet" href="/assets/css/operationsdetails.css">
+    <link rel="stylesheet" href="/assets/css/contactus.css">
     <link rel="stylesheet" href="/assets/css/compoents/header.css">
-    <link rel="stylesheet" href="/assets/font-awesome-4.7.0/css/font-awesome.min.css">
-
 </head>
 
 <body>
 
     <nav class="nav-bar">
         <div class="nav-header">
-            <a href="index.html"><img src="/assets/img/Logo.png" alt="Logo" class="logo"></a>
+            <a href="index.html"><img src="../assets/img/Logo.png" alt="Logo" class="logo"></a>
             <div class="hamburger-menu">
                 <div class="bar"></div>
                 <div class="bar"></div>
@@ -41,7 +39,6 @@
               </a>
       <li class="nav-links language-selector">
                 <div class="language-selector">
-                  <a href="#" data-lang="en">EN</a>
                   <a href="#" data-lang="ar">AR</a>
                   <a href="#" data-lang="fr">FR</a>
                   <!-- Add more languages as needed -->
@@ -58,76 +55,34 @@
 
     <!--       add content hereeeeeeeeeee       -->
 
-    <section class="operations-banner">
-        <div class="operations-banner__content">
-          <h1>Hair Transplanting</h1>
-          <p class="operations-banner__subheading">
-            Revolutionizing hair restoration with Choi and Sapphire FUE techniques for natural-looking results.
-          </p>
-          <button class="cta-button">Schedule an Appointment</button>
-        </div>
-      </section>
-    
-    <section class="operation-detail-section">
-        <article class="operation-detail-section__description">
-            <h2>What is Hair Transplanting?</h2>
-            <p>Hair transplanting is a surgical procedure that addresses hair loss by transplanting hair follicles from denser areas of the scalp, or other body parts, to the balding or thinning regions. This treatment is particularly effective for male pattern baldness and can also be employed to restore eyelashes, eyebrows, beard hair, chest hair, and to fill in scars caused by accidents or surgeries.
-
-                The most common techniques for hair transplanting are Follicular Unit Transplantation (FUT) and Follicular Unit Extraction (FUE). Each method involves harvesting healthy hair follicles and grafting them onto the target areas, with the goal of achieving a natural-looking hair density and hairline.</p>
-        </article>
-        <section class="operation-overview">
-            <h2 class="operation-overview__title">Hair Transplanting Operation Overview</h2>
-            <div class="operation-overview__items">
-                <div class="operation-overview__item">
-                    <i class="fa fa-medkit" aria-hidden="true"></i>
-                    <p class="operation-overview__item-title">Duration of Procedure</p>
-                    <p class="operation-overview__item-detail">6-8 Hours</p>
+   <section class="contact-section">
+        <div class="contact-container">
+            <div class="contact-info">
+                <img src="/assets/img/ContactUs.png" alt="Get in Touch" class="contact-image">
+                <div class="contact-info__socialMedia">
+                    <a href="https://wa.me/905550846000" target="_blank"><img height="25px" src="/assets/img/icons/SocialMedia/Whatsapp.png" alt=""></a>
+                    <a href="https://facebook.com/yourprofile" target="_blank"><img height="25px" src="/assets/img/icons/SocialMedia/Facebook.png" alt=""></a>
+                    <a href="https://instagram.com/yourprofile" target="_blank"><img height="25px" src="/assets/img/icons/SocialMedia/Instagram.png" alt=""></a>
                 </div>
-                <div class="operation-overview__item">
-                    <i class="fa fa-bed" aria-hidden="true"></i>
-                    <p class="operation-overview__item-title">Hospitalization Duration</p>
-                    <p class="operation-overview__item-detail">0 Days</p>
-                </div>
-                <div class="operation-overview__item">
-                    <i class="fa fa-male" aria-hidden="true"></i>
-                    <p class="operation-overview__item-title">Mobility</p>
-                    <p class="operation-overview__item-detail">3 Nights 4 Days</p>
-                </div>
-             
-                <div class="operation-overview__item">
-                    <i class="fa fa-reply" aria-hidden="true"></i>
-                    <p class="operation-overview__item-title">Return to Activities</p>
-                    <p class="operation-overview__item-detail">2 Days</p>
-                </div>
-                <div class="operation-overview__item">
-                    <i class="fa fa-heart" aria-hidden="true"></i>
-                    <p class="operation-overview__item-title">Complete Recovery</p>
-                    <p class="operation-overview__item-detail">-</p>
-                </div>
-                <div class="operation-overview__item">
-                    <i class="fa fa-check-square-o" aria-hidden="true"></i>
-                    <p class="operation-overview__item-title">Anticipated Results</p>
-                    <p class="operation-overview__item-detail">7 Days</p>
-                </div>
-                <!-- ... other items ... -->
             </div>
-        </section>
-        <div class="operation-detail-section__gallery">
-            <div class="gallery-item">
-                <img  src="/assets/img/hair-transplant-Before.png" alt="Before Liposuction">
-                <span class="overlay-text before">Before</span>
+            <div class="contact-form-container">
+                <h1>Contact Us</h1>
+                <form id="contact-form-en" class="contact-form">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+                    
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                    
+                    <button type="submit" id="" class="submit-btn">Submit</button>
+                </form>
             </div>
-            <div class="gallery-item">
-                <img  src="/assets/img/hair-transplant-After.png" alt="After Liposuction">
-                <span class="overlay-text after">After</span>
-            </div>
-        </div>
-        
-        
-    
-        <div class="operation-detail-section__pricing">
-            <h3>For More Information</h3>
-            <button class="cta-button">Schedule an Appointment</button>
         </div>
     </section>
 
@@ -162,6 +117,7 @@
                         <a href="#">Blogs</a>
                         <a href="#">About us</a>
                         <a href="#">Zoom Group</a>
+  <a href="contactUs.html">Contact Us</a>
 
                     </li>
                     <!--  <li>
@@ -201,7 +157,8 @@
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="/assets/js/translation.js"></script>
-    <script src="assets/js/app.js"></script>
+    <script src="/assets/js/app.js"></script>
+    <script src="/assets/js/forms.js"></script>
 </body>
 
 </html>
