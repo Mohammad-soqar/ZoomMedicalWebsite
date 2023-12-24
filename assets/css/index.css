@@ -1,3 +1,8 @@
+* {
+    box-sizing: border-box;
+    /* Apply box-sizing to all elements */
+}
+
 /* index-thumbnail */
 .index-banner {
     margin: 1rem 0rem;
@@ -104,8 +109,10 @@
         height: 55vh;
         background-position: 60% center;
     }
+
     .index-banner__content h1 {
         font-size: 2.5em;
+        width: 100%;
     }
 }
 
@@ -129,11 +136,10 @@
 .line {
     display: flex;
     border-bottom: 2px solid var(--Green-Color);
-    width: 7rem;
     justify-content: center;
 }
 
-.line h2 {
+.line h3 {
     font-size: 4rem;
     margin: 0 0 1rem 0;
     color: var(--Green-Color);
@@ -143,7 +149,7 @@
     width: 70%;
     display: grid;
     grid-template-columns: 1fr 1fr;
-        gap: 4rem;
+    gap: 4rem;
     justify-items: center;
 
 }
@@ -170,7 +176,8 @@
         grid-template-columns: repeat(1, 1fr);
         width: 90% !important;
     }
-    .line h2 {
+
+    .line h3 {
         font-size: 3rem;
     }
 
@@ -182,20 +189,140 @@
         grid-template-columns: repeat(1, 1fr);
         width: 90% !important;
     }
-    .line h2 {
+
+    .line h3 {
         font-size: 3rem;
     }
+
     .operations-container-operation1 {
-        font-size: 1.5rem;
-        padding: 1rem;
+        font-size: 1.3rem;
+        padding: 2rem 1rem;
         gap: 1rem;
 
-    } 
+    }
 }
 
 /* why choose zoom */
 
-.operations-container {
+.why-choose-container {
+    display: flex;
+    gap: 3rem;
+    margin: 5rem 5rem 5rem 5rem;
+    align-items: center;
+}
+
+.why-choose-container-img {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.why-choose-container-img img {
+    width: 100%;
+}
+
+.why-choose-container-text {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin: 5rem auto;
+}
+
+.why-choose-container-text h3 {
+    font-size: 2.5em;
+    color: var(--Green-Color);
+}
+
+.why-choose-container-text p {
+    font-size: 1.3em;
+}
+
+.why-choose-container-text-p {
+    font-size: 1.8em;
+    font-weight: 500;
+}
+
+.why-choose-container-text-boxes-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    justify-items: center;
+
+}
+
+.why-choose-container-text-box {
+
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    color: var(--Green-Color);
+    font-size: 1rem;
+    font-weight: 600;
+    box-shadow: var(--shadow);
+    padding: 2rem;
+    border-radius: 27px;
+}
+
+.item3 {
+    grid-column: 1 / span 2;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .why-choose-container {
+        flex-direction: column-reverse;
+    }
+    
+    .why-choose-container-img {
+        width: 100%;
+    }
+    .why-choose-container-text-boxes-container {
+        grid-template-columns: repeat(1, 1fr);
+        width: 90% !important;
+    
+    }
+    .item3 {
+        grid-column: 1 / span 1;
+    }
+    .why-choose-container-text-box{
+        width: 100%;
+
+    }
+
+}
+
+
+@media only screen and (max-width: 767px) {
+    .why-choose-container {
+        flex-direction: column-reverse;
+        margin: 2rem;
+
+    }
+    .why-choose-container-img {
+        width: 100%;
+    }
+    .why-choose-container-text-boxes-container {
+        grid-template-columns: repeat(1, 1fr);    
+    }
+    .item3 {
+        grid-column: 1 / span 1;
+    }
+    .why-choose-container-text-box{
+        width: 100%;
+
+    }
+    .why-choose-container-text h3 {
+        font-size: 1.5em;
+    }
+    .why-choose-container-text p {
+        font-size: 1em;
+    }
+}
+
+
+/* blogs-section */
+
+.blogs-section-container {
     display: flex;
     flex-direction: column;
     gap: 3rem;
@@ -203,16 +330,239 @@
     margin: 5rem auto;
     align-items: center;
 }
+.blogs-section {
+    width: 85%;
+}
 
-
+/* before and after */
+.before-and-after-section-imgs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+}
+.before-and-after-section-imgs-img {
+    width: 100%;
+}
+.before-and-after-section-imgs-img img{
+    width: 100%;
+}
 
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-
-
+    .before-and-after-section-imgs {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 
 @media only screen and (max-width: 767px) {
-  
+    .before-and-after-section-imgs {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+
+
+@media only screen and (min-width: 1300px) {
+
+    
+    .reviews {
+        position: relative;
+    }
+
+    .review-sec {
+        display: flex;
+        margin: 12rem 8rem 0rem 8rem;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .reviews-map img {
+        max-height: 240px;
+    }
+
+    .reviews-text {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .reviews-text h3 {
+        font-size: 3em;
+        color: #292929;
+        font-weight: 700;
+        width: 90%;
+        position: relative;
+    }
+
+    .reviews-text h2 {
+        color: #C4942F;
+        font-weight: 700;
+        width: 90%;
+        position: relative;
+    }
+
+    .reviews-text-side {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .review-carousel {
+        overflow: hidden;
+        position: relative;
+        max-width: 500px;
+
+    }
+
+    .carousel-viewport {
+        display: flex;
+        transition: transform 0.3s ease-in-out;
+        width: 100%;
+    }
+
+    .review-card-container {
+        flex: 0 0 100%;
+        /* Each card container takes 33.33% of the viewport width with a 10px gap */
+        padding: 1.5rem;
+        background-color: #FFF7E5;
+        box-sizing: border-box;
+        border-radius: 1.625rem;
+    }
+
+    .review-card {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+    }
+
+    .review-stars {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .next-btn {
+        margin-top: 10px;
+        position: absolute;
+        z-index: 1;
+        right: 10%;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .review-id {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+    }
+
+    .review-id h4 {
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+}
+@media only screen and (max-width: 1300px) {
+
+
+
+    .reviews {
+        position: relative;
+    }
+
+    .review-sec {
+        display: flex;
+        margin: 8rem 1rem 0rem 1rem;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .reviews-map img {
+        max-height: 240px;
+    }
+
+    .reviews-text {
+        display: flex;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .reviews-text h3 {
+        font-size: 3em;
+        color: #292929;
+        font-weight: 700;
+        width: 90%;
+        position: relative;
+    }
+
+    .reviews-text h2 {
+        color: #C4942F;
+        font-weight: 700;
+        width: 90%;
+        position: relative;
+    }
+
+    .reviews-text-side {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 2rem;
+    }
+
+    .review-carousel {
+        overflow: hidden;
+        position: relative;
+        max-width: 500px;
+
+    }
+
+    .carousel-viewport {
+        display: flex;
+        transition: transform 0.3s ease-in-out;
+        width: 100%;
+    }
+
+    .review-card-container {
+        flex: 0 0 100%;
+        /* Each card container takes 33.33% of the viewport width with a 10px gap */
+        padding: 1.5rem;
+        background-color: #FFF7E5;
+        box-sizing: border-box;
+        border-radius: 1.625rem;
+    }
+
+    .review-card {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+    }
+
+    .review-stars {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .next-btn {
+        margin-top: 10px;
+        position: absolute;
+        z-index: 1;
+        right: 8%;
+        top: 20%;
+        transform: translateY(-50%);
+    }
+
+    .review-id {
+        display: flex;
+        flex-direction: column;
+        gap: .5rem;
+    }
+
+    .review-id h4 {
+        font-size: 1.5em;
+        font-weight: 600;
+    }
 }
