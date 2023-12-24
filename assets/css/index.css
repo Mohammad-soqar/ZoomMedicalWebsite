@@ -129,7 +129,7 @@
     flex-direction: column;
     gap: 3rem;
     width: 100%;
-    margin: 5rem auto;
+    margin: 15rem auto;
     align-items: center;
 }
 
@@ -207,7 +207,7 @@
 .why-choose-container {
     display: flex;
     gap: 3rem;
-    margin: 5rem 5rem 5rem 5rem;
+    margin: 5rem 5rem 15rem 5rem;
     align-items: center;
 }
 
@@ -327,7 +327,7 @@
     flex-direction: column;
     gap: 3rem;
     width: 100%;
-    margin: 5rem auto;
+    margin: 15rem auto;
     align-items: center;
 }
 .blogs-section {
@@ -372,7 +372,7 @@
 
     .review-sec {
         display: flex;
-        margin: 12rem 8rem 0rem 8rem;
+        margin: 15rem 8rem;
         align-items: center;
         gap: 2rem;
     }
@@ -481,6 +481,7 @@
 
     .reviews-map img {
         max-height: 240px;
+        display: none;
     }
 
     .reviews-text {
