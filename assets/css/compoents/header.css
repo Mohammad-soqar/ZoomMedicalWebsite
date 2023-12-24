@@ -166,12 +166,11 @@
 
 /* Hide the language selector in mobile view initially */
 @media only screen and (max-width: 1300px) {
-    .language-selector {
-        display: none;
-    }
+   
 
-    .language-selector.active {
-        display: block;
+    .language-selector {
+        display: flex;
+        justify-content: flex-end;
     }
 }
 

@@ -22,11 +22,13 @@ html {
 }
 
 .blogs-banner__content {
+    position: relative;
     z-index: 2;
-    position: absolute;
     text-align: start;
     top: 50%;
-    left: 20%;
+    left: 15%;
+    width: 33rem;
+    right: 0%;
     transform: translate(-20%, -50%);
 }
 
@@ -40,7 +42,7 @@ html {
     font-size: 1.5rem;
     /* Adjust the size as needed */
     margin-bottom: 1em;
-    width: 40%;
+    width: 80%;
 }
 
 .cta-button {
@@ -113,8 +115,8 @@ html {
 
 .blog-item {
     transition: transform 0.3s ease;
-    border: var(--Green-Color) 2px solid;
-    border-radius: 22px 22px 27px 27px;
+    border: var(--Green-Color) 3px solid;
+    border-radius: 22px ;
 }
 
 .blog-item:hover {
@@ -125,7 +127,7 @@ html {
     display: block;
     background-color: #fff;
     border-radius: var(--btn-Radius);
-    box-shadow: var(--shadow);
+    box-shadow: var(--shadow-Green);
     height: 100%;
     overflow: hidden;
     text-decoration: none;
@@ -149,7 +151,7 @@ html {
 .blog-right-text {
     padding: 1rem;
     height: 100%;
-    background-color: var(--Green-Color);  /* Change as needed */
+    background-color: #fff;  /* Change as needed */
 }
 
 .blog-right-text p {
@@ -159,7 +161,7 @@ html {
 }
 
 .blog-right-text h3 {
-    color: #fff;
+    color: var(--Green-Color);
     font-size: 1.2em;
     font-weight: 800;
     margin-bottom: 0.5rem;

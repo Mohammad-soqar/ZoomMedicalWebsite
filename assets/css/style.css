@@ -151,6 +151,7 @@ table {
 /*----------------------reset code-----------------*/
 
 :root {
+    --shadow-Green: 0px 4px 16px 0px #0b896c43;
     --shadow: 0px 4px 16px 0px rgba(0, 0, 0, 0.25);
     --Green-Color:#0B896B;
     --Dark-Color:#435358;
@@ -160,6 +161,10 @@ table {
 }
 * {
     box-sizing: border-box; /* Apply box-sizing to all elements */
+  }
+
+  .arabic-text{
+    text-align: end;
   }
 
 .Transperent-brand-btn,

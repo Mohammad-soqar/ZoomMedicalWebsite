@@ -132,11 +132,18 @@ html {
 .operations-banner__content {
     position: relative;
     z-index: 2;
-    /* Ensures the content is above the pseudo-element overlay */
     text-align: start;
     top: 50%;
-    left: 25%;
+    left: 15%;
+    width: 33rem;
+    right: 0%;
     transform: translate(-20%, -50%);
+}
+.operations-banner__subheading {
+    font-size: 1.5rem;
+    /* Adjust the size as needed */
+    margin-bottom: 1em;
+    width: 80%;
 }
 
 .operations-banner__content h1 {
@@ -145,12 +152,6 @@ html {
     margin: 0 0 0.5em 0;
 }
 
-.operations-banner__subheading {
-    font-size: 1.5rem;
-    /* Adjust the size as needed */
-    margin-bottom: 1em;
-    width: 40%;
-}
 
 .cta-button {
     display: inline-block;
