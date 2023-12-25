@@ -2,6 +2,14 @@
     box-sizing: border-box;
     /* Apply box-sizing to all elements */
 }
+img {
+    -webkit-user-drag: none;
+    user-drag: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
 
 /* index-thumbnail */
 .index-banner {
@@ -153,8 +161,16 @@
     justify-items: center;
 
 }
-
 .operations-container-operation1 {
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+.operations-container-operation1:hover{
+    transform: translateY(-2px); 
+
+}
+
+.operations-container-operation1 a{
     display: flex;
     align-items: center;
     gap: 2rem;
@@ -165,6 +181,7 @@
     padding: 2rem;
     border-radius: 27px;
     width: 100%;
+    text-decoration: none;
 }
 
 
@@ -191,14 +208,14 @@
     }
 
     .line h3 {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
-    .operations-container-operation1 {
+    .operations-container-operation1 a {
         font-size: 1.3rem;
         padding: 2rem 1rem;
         gap: 1rem;
-
+        text-decoration: none;
     }
 }
 
@@ -364,7 +381,11 @@
 
 
 @media only screen and (min-width: 1300px) {
-
+    .before-and-after-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
     
     .reviews {
         position: relative;
@@ -448,8 +469,8 @@
         margin-top: 10px;
         position: absolute;
         z-index: 1;
-        right: 10%;
-        top: 50%;
+        right: 30%;
+        top: 40%;
         transform: translateY(-50%);
     }
 
@@ -463,18 +484,39 @@
         font-size: 1.5em;
         font-weight: 600;
     }
+    .contact-us {
+        display: flex;
+        padding: 2rem 0 2rem 15%;
+        background-image: url('/assets/img/contact-us-footer.png');
+        background-size: cover;
+        background-position: center;   
+     }
 }
 @media only screen and (max-width: 1300px) {
-
-
+    .before-and-after-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact-us {
+        display: flex;
+        padding: 2rem 0 2rem 15%;
+        background-image: url('/assets/img/contact-us-footer.png');
+        background-size: cover;
+        background-position: center;   
+     }
 
     .reviews {
         position: relative;
     }
+    .next-btn {
+        right: 5%!important;
+        top: 42% !important;
+    }
 
     .review-sec {
         display: flex;
-        margin: 8rem 1rem 0rem 1rem;
+        margin: 8rem 1rem 4rem 1rem;
         align-items: center;
         gap: 2rem;
     }
