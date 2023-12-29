@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zoom Medical</title>
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="stylesheet" href="assets/css/compoents/footer.css">
-    <link rel="stylesheet" href="assets/css/index.css">
-    <link rel="stylesheet" href="assets/css/compoents/header.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/compoents/footer.css">
+    <link rel="stylesheet" href="/assets/css/beforeAndAfter.css">
+    <link rel="stylesheet" href="/assets/css/compoents/header.css">
 </head>
 
 <body>
@@ -49,6 +49,7 @@
         </ul>
         <!-- Include the buttons here initially hidden -->
     </nav>
+  
 
     <!--       nav bar section          -->
 
@@ -56,9 +57,29 @@
 
     <!--       add content hereeeeeeeeeee       -->
 
+    <section class="before-and-after-banner">
+        <div class="before-and-after-banner__content">
+            <h1>Before & After</h1>
+            <p class="before-and-after-banner__subheading">
+                Led by top specialists, offering state-of-the-art technology and
+                personalized care.
+            </p>
+            <a href="#before-and-after-links" class="cta-button">Go to Photos</a>
+        </div>
+    </section>
 
 
-    
+    <div id="before-and-after-links" class="service-links">
+        <a href="#" class="service-link" data-service="hair-transplantation">زراعة الشعر</a>
+        <a href="#" class="service-link" data-service="plastic-surgery">جراحة التجميل</a>
+<a href="#" class="service-link" data-service="dentistry">طب الأسنان</a>
+<a href="#" class="service-link" data-service="medical-aesthetic">الجمالية الطبية</a>
+    </div>
+    <div id="gallery" class="image-gallery">
+        <!-- Images will be populated by jQuery -->
+    </div>
+
+
 
     <!--       add content hereeeeeeeeeee       -->
 
@@ -89,7 +110,7 @@
                         <a href="#">Blogs</a>
                         <a href="#">About us</a>
                         <a href="#">Zoom Group</a>
-  <a href="contactUs.html">Contact Us</a>
+                        <a href="contactUs.html">Contact Us</a>
 
                     </li>
                     <!--  <li>
@@ -120,16 +141,16 @@
             </section> -->
         </footer>
         <p class="copyrights">© All Rights Reserved. Zoom Tourism<a asp-area="User" asp-controller="Home"
-                asp-action="Privacy"> Privacy Policy</a><br
-                 /> website made by Codyle</p>
+                asp-action="Privacy"> Privacy Policy</a><br /> website made by Codyle</p>
     </section>
 
-<!--     footer section -->
+    <!--     footer section -->
 
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="/assets/js/translation.js"></script>
-    <script src="assets/js/app.js"></script>
+    <script src="/assets/js/app.js"></script>
+    <script src="/assets/js/gallery.js"></script>
 </body>
 
 </html>
