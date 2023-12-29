@@ -356,6 +356,8 @@ img {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
+    width: 90%;
+
 }
 .before-and-after-section-imgs-img {
     width: 100%;
@@ -381,6 +383,7 @@ img {
 
 
 @media only screen and (min-width: 1300px) {
+    
     .before-and-after-section {
         display: flex;
         flex-direction: column;
@@ -490,13 +493,7 @@ img {
         font-size: 1.5em;
         font-weight: 600;
     }
-    .contact-us {
-        display: flex;
-        padding: 2rem 0 2rem 15%;
-        background-image: url('/assets/img/contact-us-footer.png');
-        background-size: cover;
-        background-position: center;   
-     }
+
 }
 @media only screen and (max-width: 1300px) {
     .before-and-after-section {
@@ -504,14 +501,6 @@ img {
         flex-direction: column;
         align-items: center;
     }
-    .contact-us {
-        display: flex;
-        padding: 2rem 0 2rem 15%;
-        background-image: url('/assets/img/contact-us-footer.png');
-        background-size: cover;
-        background-position: center;   
-     }
-
     .reviews {
         position: relative;
     }

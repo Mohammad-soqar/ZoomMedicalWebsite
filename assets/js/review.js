@@ -1,19 +1,31 @@
-$(document).ready(function(){
-    let $imgs = $('.carousel-images img');
+$(document).ready(function () {
+    let slideCount = $('.slide').length;
     let currentIndex = 0;
-
-    function showNextImage() {
-        $imgs.eq(currentIndex).removeClass('active');
-        currentIndex = (currentIndex + 1) % $imgs.length;
-        $imgs.eq(currentIndex).addClass('active');
+    $('.slide').hide();
+    $('.active').show();
+    $('.prev').on('click', function () {
+       currentIndex--;
+       if (currentIndex < 0) {
+          currentIndex = slideCount - 1;
+       }
+       showSlide(currentIndex);
+    });
+    $('.next').on('click', function () {
+       currentIndex++;
+       if (currentIndex >= slideCount) {
+          currentIndex = 0;
+       }
+       showSlide(currentIndex);
+    });
+    $('.dot').on('click', function () {
+       currentIndex = $(this).index();
+       showSlide(currentIndex);
+    });
+    function showSlide(index) {
+       $('.slide').hide().removeClass('active');
+       $('.dot').removeClass('active-dot');
+       $('.slide').eq(index).show().addClass('active');
+       $('.dot').eq(index).addClass('active-dot');
     }
-
-    function showPrevImage() {
-        $imgs.eq(currentIndex).removeClass('active');
-        currentIndex = (currentIndex - 1 + $imgs.length) % $imgs.length;
-        $imgs.eq(currentIndex).addClass('active');
-    }
-
-    $('.next').click(showNextImage);
-    $('.prev').click(showPrevImage);
-});
+    showSlide(currentIndex);
+ });

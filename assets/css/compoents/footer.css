@@ -1,16 +1,16 @@
-
 /* footer section  */
 
-a{
+a {
     text-decoration: none;
     color: #ffffffe6;
 
 }
+
 .footer-section {
     background: #1A1D23;
     padding-bottom: 20px;
     text-align: center;
-
+    margin-top: 3rem;
 }
 
 
@@ -42,7 +42,7 @@ footer section {
 .footer-logo {
     margin: 0 1rem 0 0;
     display: block;
-    height: 70px;
+    height: 80px;
     margin: 0 0 30px;
 }
 
@@ -59,7 +59,7 @@ section .top h3 {
     color: #008268;
     text-transform: uppercase;
     letter-spacing: 1px;
-    font-size: 12px;
+    font-size: 17 px;
 }
 
 section .bottom {
@@ -114,10 +114,12 @@ section .bottom {
     justify-content: space-evenly;
     margin: 0 0 3rem 0;
 }
-.copyrights{
+
+.copyrights {
     margin: 0 0 1rem 0;
     color: #ffffffe6;
 }
+
 /* .socialmedia a{
     margin: 0 1rem 0 0;
 } */
@@ -149,21 +151,49 @@ section .bottom {
     .top p {
         font-size: 20px;
         text-align: center;
-        }
+    }
 
     .top a {
         font-size: 25px;
     }
+
     .fotter-logo-container {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
+
     .socialmedia div {
         margin: 1rem 0 3rem 0;
     }
 }
 
+.codyle {
+    background: linear-gradient(90deg, #ffffff 0%, #FF2E63 100%);
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline;
+    font-size: 1.5em;
+}
 
+@media only screen and (min-width: 1300px) {
+    .contact-us {
+        display: flex;
+        padding: 2rem 0 2rem 15%;
+        background-image: url('/assets/img/contact-us-footer.png');
+        background-size: cover;
+        background-position: center;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .contact-us {
+        display: flex;
+        padding: 2rem 0 2rem 15%;
+        background-image: url('/assets/img/contact-us-footer.png');
+        background-size: cover;
+        background-position: center;
+    }
+}
 
 /* footer section  */

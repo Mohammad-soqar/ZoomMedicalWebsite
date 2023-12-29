@@ -34,11 +34,11 @@
 }
 .header-img-container-img a {
     padding: var(--btn-Padding);
-    background: #fff;
+    background: var(--Green-Color);
     text-align: center;
     display: flex;
     align-items: center;
-    border: 1px solid var(--Green-Color);
+    border: 2px solid #ffffff;
     border-radius: var(--btn-Radius);
     color: var(--black-text);
     text-decoration: none;
