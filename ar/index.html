@@ -10,18 +10,16 @@
     <link rel="stylesheet" href="/assets/css/compoents/footer.css">
     <link rel="stylesheet" href="/assets/css/index.css">
     <link rel="stylesheet" href="/assets/css/blogs.css">
+    <link rel="stylesheet" href="/assets/css/arabic-font.css">
     <link rel="stylesheet" href="/assets/css/compoents/header.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;500;600;700;800;900;1000&display=swap"
-        rel="stylesheet">
+ 
 </head>
 
 <body>
     <style>
-        body {
-            font-family: 'Cairo', sans-serif !important;
-        }
+      
 
         .why-choose-container-text h3 {
             font-size: 3em;
@@ -32,7 +30,7 @@
         }
 
         .index-banner {
-            background-image: url("/assets/img/index-thumbnail-AR.png");
+            background-image: url("/assets/img/index-thumbnail-AR2.png");
         }
 
         .index-banner__content {
@@ -49,13 +47,14 @@
             font-size: 1.5rem;
         }
         @media only screen and (max-width: 767px) {
+            .index-banner {
+            background-image: url("/assets/img/index-thumbnail-AR.png");
+        }
             .index-banner__content {
-                align-items: center;
-                text-align: center;
+              
             }
 
             .index-banner__subheading {
-                text-align: center;
             }
             .cta-button {
                 font-size: 1rem;
@@ -102,6 +101,15 @@
 
     <!--       nav bar section          -->
 
+    <!--       add content hereeeeeeeeeee       -->
+    <div class="social-media-links">
+      <a href="https://wa.me/905550846000" target="_blank" class="social-link whatsapp"><img height="35px" src="/assets/img/icons/SocialMedia/Whatsapp.png"></a>
+      <a href="https://www.instagram.com/zoom.medical.tr/" target="_blank" class="social-link instagram"><img height="35px" src="/assets/img/icons/SocialMedia/Instagram.png"></a>
+      <a href="https://www.facebook.com/zoom.medical.tr" target="_blank" class="social-link facebook"><img height="35px" src="/assets/img/icons/SocialMedia/Facebook.png"></a>
+  </div>
+
+    <!--       nav bar section          -->
+
 
 
     <!--       add content hereeeeeeeeeee       -->
@@ -112,7 +120,7 @@
             <p class="index-banner__subheading" style="direction: rtl;">
                 - الرعاية المتقدمة، اللمسة الشخصية. <br> احجز موعدك اليوم
             </p>
-            <a href="#operations" class="cta-button">اذهب إلى العمليات</a>
+            <a href="/ar/operations.html" class="cta-button">اذهب إلى العمليات</a>
         </div>
     </section>
 
@@ -160,7 +168,7 @@
                 </div>
                 <div class="why-choose-container-text-box">
                     <img src="/assets/img/icons/Cutting-Edge-Technology-icon.png" alt="" width="60px">
-                    <p>تقنية متطورة</p>
+                    <p>تقنيات متطورة</p>
                 </div>
                 <div class="why-choose-container-text-box item3">
                     <img src="/assets/img/icons/Patient-Centric-Approach-icon.png" alt="" width="35px">
@@ -246,7 +254,7 @@
     <section class="review-sec">
         <div class="reviews-text-side">
             <div class="reviews-text">
-                <h2>Reviews</h2>
+                <h2>تقييمات</h2>
                 <h3>آراء عملاؤنا عنا </h3>
             </div>
             <div class="reviews">
@@ -332,7 +340,7 @@
 
     <!--     footer section -->
 
-    <section class="footer-section">
+    <section id="footer" class="footer-section">
         <div class="contact-us">
             <a href="#operations" class="cta-button">Contact Us &rarr; </a>
 

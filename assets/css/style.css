@@ -3,6 +3,8 @@
     src: url('/assets/font/Inter-Medium.ttf');
 }
 
+
+
 html,
 body,
 div,
@@ -124,6 +126,8 @@ body {
 }
 *{
   font-family: Inter;
+  -webkit-tap-highlight-color:transparent; /* For iOS and some Android devices */
+  tap-highlight-color: transparent; 
 }
 
 ol,
@@ -196,3 +200,31 @@ table {
 }
 
 
+.social-media-links {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 1000;
+}
+
+.social-link {
+    display: block;
+    margin: 5px 0;
+    background-color: #fff;
+    color: white;
+    padding: 10px;
+    border-radius: var(--btn-Radius);
+    box-shadow: var(--shadow);
+    text-align: center;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.social-link:hover {
+    background-color: #555;
+}
+
+/* Icons styles */
+.whatsapp { /* add WhatsApp specific styles */ }
+.instagram { /* add Instagram specific styles */ }
+.facebook { /* add Facebook specific styles */ }
