@@ -1,29 +1,22 @@
 <!DOCTYPE html>
-
+<html>
 <head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-J86SLB1F54"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-J86SLB1F54');
-</script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Zoom Medical</title>
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/compoents/footer.css">
-    <link rel="stylesheet" href="/assets/css/index.css">
+    <link rel="stylesheet" href="/assets/css/operationsdetails.css">
     <link rel="stylesheet" href="/assets/css/compoents/header.css">
+    <link rel="stylesheet" href="/assets/font-awesome-4.7.0/css/font-awesome.min.css">
+
 </head>
 
 <body>
 
     <nav class="nav-bar">
         <div class="nav-header">
-            <a href="index.html"><img src="../assets/img/Logo.png" alt="Logo" class="logo"></a>
+            <a href="index.html"><img src="/assets/img/Logo.png" alt="Logo" class="logo"></a>
             <div class="hamburger-menu">
                 <div class="bar"></div>
                 <div class="bar"></div>
@@ -61,20 +54,82 @@
 
     <!--       nav bar section          -->
 
-    <!--       add content hereeeeeeeeeee       -->
-    <div class="social-media-links">
-      <a href="https://wa.me/905550846000" target="_blank" class="social-link whatsapp"><img alt="WhatsApp-icon" height="35px" src="/assets/img/icons/SocialMedia/Whatsapp.png"></a>
-      <a href="https://www.instagram.com/zoom.medical.tr/" target="_blank" class="social-link instagram"><img alt="Instagram-icon" height="35px" src="/assets/img/icons/SocialMedia/Instagram.png"></a>
-      <a href="https://www.facebook.com/zoom.medical.tr" target="_blank" class="social-link facebook"><img alt="Facebook-icon" height="35px" src="/assets/img/icons/SocialMedia/Facebook.png"></a>
-  </div>
-
-    <!--       nav bar section          -->
-
 
 
     <!--       add content hereeeeeeeeeee       -->
 
+    <section class="operations-banner">
+        <div class="operations-banner__content">
+          <h1>Hair Transplanting</h1>
+          <p class="operations-banner__subheading">
+            Revolutionizing hair restoration with Choi and Sapphire FUE techniques for natural-looking results.
+          </p>
+          <button class="cta-button">Schedule an Appointment</button>
+        </div>
+      </section>
+    
+    <section class="operation-detail-section">
+        <article class="operation-detail-section__description">
+            <h2>What is Hair Transplanting?</h2>
+            <p>Hair transplanting is a surgical procedure that addresses hair loss by transplanting hair follicles from denser areas of the scalp, or other body parts, to the balding or thinning regions. This treatment is particularly effective for male pattern baldness and can also be employed to restore eyelashes, eyebrows, beard hair, chest hair, and to fill in scars caused by accidents or surgeries.
 
+                The most common techniques for hair transplanting are Follicular Unit Transplantation (FUT) and Follicular Unit Extraction (FUE). Each method involves harvesting healthy hair follicles and grafting them onto the target areas, with the goal of achieving a natural-looking hair density and hairline.</p>
+        </article>
+        <section class="operation-overview">
+            <h2 class="operation-overview__title">Hair Transplanting Operation Overview</h2>
+            <div class="operation-overview__items">
+                <div class="operation-overview__item">
+                    <i class="fa fa-medkit" aria-hidden="true"></i>
+                    <p class="operation-overview__item-title">Duration of Procedure</p>
+                    <p class="operation-overview__item-detail">6-8 Hours</p>
+                </div>
+                <div class="operation-overview__item">
+                    <i class="fa fa-bed" aria-hidden="true"></i>
+                    <p class="operation-overview__item-title">Hospitalization Duration</p>
+                    <p class="operation-overview__item-detail">0 Days</p>
+                </div>
+                <div class="operation-overview__item">
+                    <i class="fa fa-male" aria-hidden="true"></i>
+                    <p class="operation-overview__item-title">Mobility</p>
+                    <p class="operation-overview__item-detail">3 Nights 4 Days</p>
+                </div>
+             
+                <div class="operation-overview__item">
+                    <i class="fa fa-reply" aria-hidden="true"></i>
+                    <p class="operation-overview__item-title">Return to Activities</p>
+                    <p class="operation-overview__item-detail">2 Days</p>
+                </div>
+                <div class="operation-overview__item">
+                    <i class="fa fa-heart" aria-hidden="true"></i>
+                    <p class="operation-overview__item-title">Complete Recovery</p>
+                    <p class="operation-overview__item-detail">-</p>
+                </div>
+                <div class="operation-overview__item">
+                    <i class="fa fa-check-square-o" aria-hidden="true"></i>
+                    <p class="operation-overview__item-title">Anticipated Results</p>
+                    <p class="operation-overview__item-detail">7 Days</p>
+                </div>
+                <!-- ... other items ... -->
+            </div>
+        </section>
+        <div class="operation-detail-section__gallery">
+            <div class="gallery-item">
+                <img  src="/assets/img/hair-transplant-Before.png" alt="Before Liposuction">
+                <span class="overlay-text before">Before</span>
+            </div>
+            <div class="gallery-item">
+                <img  src="/assets/img/hair-transplant-After.png" alt="After Liposuction">
+                <span class="overlay-text after">After</span>
+            </div>
+        </div>
+        
+        
+    
+        <div class="operation-detail-section__pricing">
+            <h3>For More Information</h3>
+            <button class="cta-button">Schedule an Appointment</button>
+        </div>
+    </section>
 
     
 
@@ -82,7 +137,7 @@
 
     <!--     footer section -->
 
-    <section id="footer" class="footer-section">
+    <section class="footer-section">
         <footer>
             <section class="top">
                 <div class="fotter-logo-container">
@@ -147,7 +202,7 @@
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="/assets/js/translation.js"></script>
-    <script src="/assets/js/app.js"></script>
+    <script src="assets/js/app.js"></script>
 </body>
 
 </html>

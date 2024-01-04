@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+                            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<!-- Arabic URLs -->
+<url>
+  <loc>https://www.zoom-medical.com/ar/</loc>
+  <lastmod>2023-12-30T20:02:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.zoom-medical.com/ar/index.html</loc>
+  <lastmod>2023-12-30T20:02:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.zoom-medical.com/ar/operations.html</loc>
+  <lastmod>2023-12-30T20:02:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.zoom-medical.com/ar/beforeafter.html</loc>
+  <lastmod>2023-12-30T20:02:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.zoom-medical.com/ar/blogs.html</loc>
+  <lastmod>2023-12-30T20:02:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.zoom-medical.com/ar/operations/operationsDetailsCopy.html</loc>
+  <lastmod>2023-12-30T20:02:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.zoom-medical.com/ar/contactUs.html</loc>
+  <lastmod>2023-12-30T20:02:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.zoom-medical.com/ar/blogs/blogsDetailscopy.html</loc>
+  <lastmod>2023-12-30T20:02:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+
+<!-- English URLs -->
+<url>
+  <loc>https://www.zoom-medical.com/en/</loc>
+  <lastmod>2023-12-30T20:02:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.zoom-medical.com/en/index.html</loc>
+  <lastmod>2023-12-30T20:02:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.zoom-medical.com/en/operations.html</loc>
+  <lastmod>2023-12-30T20:02:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.zoom-medical.com/en/beforeafter.html</loc>
+  <lastmod>2023-12-30T20:02:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.zoom-medical.com/en/blogs.html</loc>
+  <lastmod>2023-12-30T20:02:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.zoom-medical.com/en/operations/operationsDetailsCopy.html</loc>
+  <lastmod>2023-12-30T20:02:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.zoom-medical.com/en/contactUs.html</loc>
+  <lastmod>2023-12-30T20:02:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.zoom-medical.com/en/blogs/blogsDetailscopy.html</loc>
+  <lastmod>2023-12-30T20:02:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+
+<!-- French URLs -->
+<url>
+  <loc>https://www.zoom-medical.com/fr/</loc>
+  <lastmod>2023-12-30T20:02:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.zoom-medical.com/fr/index.html</loc>
+  <lastmod>2023-12-30T20:02:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.zoom-medical.com/fr/operations.html</loc>
+  <lastmod>2023-12-30T20:02:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.zoom-medical.com/fr/beforeafter.html</loc>
+  <lastmod>2023-12-30T20:02:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.zoom-medical.com/fr/blogs.html</loc>
+  <lastmod>2023-12-30T20:02:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.zoom-medical.com/fr/operations/operationsDetailsCopy.html</loc>
+  <lastmod>2023-12-30T20:02:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.zoom-medical.com/fr/contactUs.html</loc>
+  <lastmod>2023-12-30T20:02:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.zoom-medical.com/fr/blogs/blogsDetailscopy.html</loc>
+  <lastmod>2023-12-30T20:02:09+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.64</priority>
+</url>
+
+</urlset>
