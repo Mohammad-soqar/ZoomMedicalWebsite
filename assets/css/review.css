@@ -223,3 +223,20 @@
     }
 
 }
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #fff;
+    color: var(--Green-Color);
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: var(--btn-Radius);
+    transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+    background-color: var(--Green-Color);
+    box-shadow: var(--shadow);
+    color: #fff;
+}
