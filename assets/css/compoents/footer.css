@@ -180,7 +180,7 @@ section .bottom {
     .contact-us {
         display: flex;
         padding: 2rem 0 2rem 15%;
-        background-image: url('/assets/img/contact-us-footer.png');
+        background-image: url('../assets/img/contact-us-footer.png');
         background-size: cover;
         background-position: center;
     }
@@ -190,7 +190,7 @@ section .bottom {
     .contact-us {
         display: flex;
         padding: 2rem 0 2rem 15%;
-        background-image: url('/assets/img/contact-us-footer.png');
+        background-image: url('../assets/img/contact-us-footer.png');
         background-size: cover;
         background-position: center;
     }
