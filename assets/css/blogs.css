@@ -100,27 +100,31 @@ html {
 
 }
 
-.blogs-section{
+.blogs-section {
     padding-top: 2rem;
     margin: 1rem 6rem 0rem 6rem;
 }
+
 .blogBox {
     display: grid;
-    grid-template-columns: repeat(3, minmax(330px, 1fr)); /* Creates a responsive grid */
-    gap: 2rem; /* Spacing between cards */
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    gap: 2rem;
+    /* Spacing between cards */
     padding: 0;
     list-style-type: none;
-    margin: 1rem 2rem; /* Adjust margins as needed */
+    margin: 1rem 2rem;
+    /* Adjust margins as needed */
 }
 
 .blog-item {
     transition: transform 0.3s ease;
     border: var(--Green-Color) 3px solid;
-    border-radius: 22px ;
+    border-radius: 22px;
 }
 
 .blog-item:hover {
-    transform: translateY(-2px); /* Slight lift effect on hover */
+    transform: translateY(-2px);
+    /* Slight lift effect on hover */
 }
 
 .blog-card {
@@ -131,7 +135,8 @@ html {
     height: 100%;
     overflow: hidden;
     text-decoration: none;
-    color: inherit; /* Keeps text color consistent */
+    color: inherit;
+    /* Keeps text color consistent */
 }
 
 .blog-right {
@@ -143,15 +148,21 @@ html {
 }
 
 .blog-right img {
-    width: 100%; /* Ensures the width is always 100% of the container */
-    height: 200px; /* Fixed height for the square shape */
-    object-fit: cover; /* Crops and centers the image within the container */
-    object-position: center; /* Ensures the image is centered in the container */
+    width: 100%;
+    /* Ensures the width is always 100% of the container */
+    height: 200px;
+    /* Fixed height for the square shape */
+    object-fit: cover;
+    /* Crops and centers the image within the container */
+    object-position: center;
+    /* Ensures the image is centered in the container */
 }
+
 .blog-right-text {
     padding: 1rem;
     height: 100%;
-    background-color: #fff;  /* Change as needed */
+    background-color: #fff;
+    /* Change as needed */
 }
 
 .blog-right-text p {
@@ -177,8 +188,10 @@ html {
 /* Responsive adjustments */
 @media only screen and (max-width: 767px) {
     .blogBox {
-        grid-template-columns: 1fr; /* Single column layout on mobile */
-        margin: 1rem; /* Adjusted margin for mobile */
+        grid-template-columns: 1fr;
+        /* Single column layout on mobile */
+        margin: 1rem;
+        /* Adjusted margin for mobile */
     }
 
     .blogs-banner__content h1 {
@@ -187,11 +200,11 @@ html {
         margin: 0 0 0.5em 0;
     }
 
-    .blogs-section{
+    .blogs-section {
         padding-top: 2rem;
-        margin: 1rem ;
+        margin: 1rem;
     }
-   
+
 
     .blogs-banner__content {
         left: 50%;
