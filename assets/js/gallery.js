@@ -8,7 +8,7 @@ $(document).ready(function() {
 
         // Load the appropriate images
         for (var i = 1; i <= 9; i++) {
-            var imageUrl = '../assets/beforeandafter/' + service + '/' + i + '.png'; // Construct the image path
+            var imageUrl = '/assets/beforeandafter/' + service + '/' + i + '.png'; // Construct the image path
             var imgElement = $('<img>').attr('src', imageUrl).attr('alt', 'Before and after ' + service);
             $('#gallery').append(imgElement);
         }

@@ -4,7 +4,7 @@
     align-items: center;
     justify-content: center;
     gap: 10rem;
-    background-image: url(../assets/img/Rectangle-green-background.png);
+    background-image: url(/assets/img/Rectangle-green-background.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

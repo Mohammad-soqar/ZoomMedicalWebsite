@@ -1,5 +1,5 @@
 .blog-banner {
-    background-image: url('../assets/img/bodyimg.png');
+    background-image: url('/assets/img/bodyimg.png');
     background-size: cover;
     background-position: center;
     color: white;
