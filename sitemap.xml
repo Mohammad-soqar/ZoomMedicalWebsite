@@ -36,7 +36,7 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.zoom-medical.com/ar/operations/operationsDetailsCopy.html</loc>
+  <loc>https://www.zoom-medical.com/ar/operations/operationsDetails.html</loc>
   <lastmod>2023-12-30T20:02:09+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
@@ -86,7 +86,7 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.zoom-medical.com/en/operations/operationsDetailsCopy.html</loc>
+  <loc>https://www.zoom-medical.com/en/operations/operationsDetails.html</loc>
   <lastmod>2023-12-30T20:02:09+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
@@ -136,7 +136,7 @@
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>https://www.zoom-medical.com/fr/operations/operationsDetailsCopy.html</loc>
+  <loc>https://www.zoom-medical.com/fr/operations/operationsDetails.html</loc>
   <lastmod>2023-12-30T20:02:09+00:00</lastmod>
   <changefreq>monthly</changefreq>
   <priority>0.64</priority>
