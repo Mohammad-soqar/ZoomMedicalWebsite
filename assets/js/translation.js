@@ -7,9 +7,9 @@ $(document).ready(function() {
         var currentPage = pathParts.slice(1).join('/'); // Remove the language part
 
         var languages = {
-            'en': '/en/' + currentPage,
-            'ar': '/ar/' + currentPage,
-            'fr': '/fr/' + currentPage,
+            'en': 'ZoomMedicalWebsite/en/' + currentPage,
+            'ar': 'ZoomMedicalWebsite/ar/' + currentPage,
+            'fr': 'ZoomMedicalWebsite/fr/' + currentPage,
             // Add more languages as needed
         };
 
